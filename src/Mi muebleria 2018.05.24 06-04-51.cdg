@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Mi muebleria">
+  <ClassDiagramComponents>
+    <Class name="InterfazFabrica" package="INTEFAZ" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="usuarioActivo" type="UsuarioFabrica" visibility="private"/>
+        <Field name="orden" type="String" visibility="private"/>
+        <Field name="BuscadorRegistro" type="javax.swing.JButton" visibility="private"/>
+        <Field name="BuscarPieza" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CodigoEnVenta" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Crear" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CrearPieza" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="Eliminar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="EliminarPieza" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="Ensamblar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="EnsamblarMueble" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="FechaDeEnsamble" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="InformacionMueblesEnsamblados" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="InformacionPiezas" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="JLabel" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Modificar" type="javax.swing.JButton" visibility="private"/>
+        <Field name="ModificarPieza" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="MuebleAEnsamblar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombreCreacionPieza" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombreEliminarPieza" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombreMuebleRegistro" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombrePiezaCrear" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="NombrePiezaCrear1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="NumeroDePieza" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Ordenar1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Ordenar2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Ordenar3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Ordenar4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="PiezaBuscada" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="PonerEnVenta" type="javax.swing.JButton" visibility="private"/>
+        <Field name="PrecioCreacionPieza" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="PrecioNuevo" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="RegistrarMuebleEnsamblado" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="TablaMueblesEnsamblados" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaPiezas" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaPiezasDisponibles" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaPiezasPorAgotarse" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaTodosMueblesEnsamblados" type="javax.swing.JTable" visibility="private"/>
+        <Field name="UsuarioActivo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jMenu1" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu2" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu3" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenuBar1" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jMenuItem1" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem2" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem3" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem4" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem5" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem6" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem7" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane4" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane5" type="javax.swing.JScrollPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setUsuario" returnType="void" visibility="public">
+          <Argument type="UsuarioFabrica" name="user"/>
+        </Method>
+        <Method name="PiezasPorAgotarse" returnType="void" visibility="public"/>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="FechaDeEnsambleActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CrearActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="EliminarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BuscarPiezaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ModificarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="EnsamblarActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BuscadorRegistroActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="PonerEnVentaActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="Ordenar1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="Ordenar2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem7ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="INICIO" package="INTEFAZ" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="interfazFabrica" type="InterfazFabrica" visibility="public"/>
+        <Field name="interfazVentas" type="InterfazVentas" visibility="public"/>
+        <Field name="interfazFinanciera" type="InterfazFinanciera" visibility="public"/>
+        <Field name="Iniciador" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Mensaje1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Mensaje2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Nombre" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="NombreIngresado" type="javax.swing.JTextPane" visibility="private"/>
+        <Field name="PassWord" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="PassWordIngresada" type="javax.swing.JTextPane" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="IniciadorActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+        <Method name="setVisible" returnType="void" visibility="public">
+          <Argument type="boolean" name="flag"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="InterfazVentas" package="INTEFAZ" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="usuarioActivo" type="UsuarioVentas" visibility="private"/>
+        <Field name="codigo" type="int" visibility="private"/>
+        <Field name="nit" type="int" visibility="private"/>
+        <Field name="cliente" type="Cliente" visibility="private"/>
+        <Field name="orden" type="String" visibility="private"/>
+        <Field name="gananciasTotales" type="double" visibility="private"/>
+        <Field name="BuscarClienteExistente" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CodigoProducto" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="ComprasCliente" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="ConsultaFactura" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="ConsultaVentasDelDia" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="DetallesFactura" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="Devolucion" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="DevolucionesCliente" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="DireccionCliente" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FechaDeCompra" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FechaDeVentas" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FechaDevolucion" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="GananciasTotales" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="MueblesDisponibles" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="NITCliente" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NitClienteCompra" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NitClienteDevoluciones" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombreCliente" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NumeroDeFacturaDevolucion" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="RealizarCompra" type="javax.swing.JButton" visibility="private"/>
+        <Field name="TablaDeCompras" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaDeDevoluciones" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaMueblesEnVenta" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaVentasEnUnDia" type="javax.swing.JTable" visibility="private"/>
+        <Field name="UsuarioActivo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Venta" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jMenu1" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu2" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenuBar1" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jMenuItem1" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem2" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem3" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem4" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem5" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem6" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem7" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane4" type="javax.swing.JScrollPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setUsuario" returnType="void" visibility="public">
+          <Argument type="UsuarioVentas" name="user"/>
+        </Method>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="BuscarClienteExistenteActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="RealizarCompraActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem7ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="InterfazFinanciera" package="INTEFAZ" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="usuario" type="UsuarioFinanciero" visibility="private"/>
+        <Field name="orden" type="String" visibility="private"/>
+        <Field name="modelo" type="DefaultListModel" visibility="package" isStatic="true"/>
+        <Field name="lista" type="JList" visibility="package" isStatic="true"/>
+        <Field name="tiempo" type="int" visibility="public"/>
+        <Field name="AdministracionMuebles" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="AgregarPieza" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="AreaDeUsuario" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Buscador" type="javax.swing.JFileChooser" visibility="private"/>
+        <Field name="Cantidad" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="CargaDatos" type="javax.swing.JButton" visibility="private"/>
+        <Field name="CrearMueble" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="CrearUsuario" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="DialogoBuscador" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="DialogoEjecucion" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="DialogoFechas" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="DialogoTablaVentas" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="EliminarMueble" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="EliminarPieza" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="EliminarUsuario" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="ExportarVentas" type="javax.swing.JButton" visibility="private"/>
+        <Field name="FechaFinal" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="FechaInicial" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="LabelFecha1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="LabelFecha2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="LabelUsuario" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="ListaEjecucion" type="javax.swing.JList&lt;String&gt;" visibility="private"/>
+        <Field name="ModificarPrecio" type="javax.swing.JDialog" visibility="private"/>
+        <Field name="MuebleAgregar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="MuebleCrear" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="MuebleEliminado" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="MueblePrecio" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Nombre" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombreMuebleEliminar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombreParaUsuario" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="NombreUsuarioEliminar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="PassWordParaUsuario" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="PiezaAgregar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Posicion" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Precio" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="ReporteDevoluciones" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="ReporteGanancias" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="ReporteMuebleMas" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="ReporteMuebleMenos" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="ReporteUsuarioVentas" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="ReporteVentas" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="Reportes" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="TablaPiezas" type="javax.swing.JTable" visibility="private"/>
+        <Field name="TablaVentas" type="javax.swing.JTable" visibility="private"/>
+        <Field name="UsuarioActivo" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton6" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton7" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton8" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton9" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jMenu1" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu2" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenu3" type="javax.swing.JMenu" visibility="private"/>
+        <Field name="jMenuBar1" type="javax.swing.JMenuBar" visibility="private"/>
+        <Field name="jMenuItem1" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem3" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem4" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem5" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem6" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem7" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jMenuItem8" type="javax.swing.JMenuItem" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setUsuario" returnType="void" visibility="public">
+          <Argument type="UsuarioFinanciero" name="user"/>
+        </Method>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents
+void" visibility="private"/>
+        <Method name="ReporteVentasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ReporteMuebleMasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ReporteDevolucionesActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ReporteGananciasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ReporteUsuarioVentasActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ReporteMuebleMenosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="AdministracionMueblesMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="CargaDatosActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BuscadorActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem7ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jMenuItem8ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton7ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton8ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton9ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="introducirDatos" returnType="void" visibility="public">
+          <Argument type="String" name="dato"/>
+        </Method>
+        <Method name="CargarDatos" returnType="void" visibility="public">
+          <Argument type="File" name="file"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MostrarHilo" package="HILOS" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="file" type="File" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="File" name="file"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="run" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="ElegirHilo" package="HILOS" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Pieza" package="mi.muebleria.Piezas" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombrePieza" type="String" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="double" name="precio"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="int" name="cantidad"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombrePieza" returnType="String" visibility="public"/>
+        <Method name="getPrecio" returnType="double" visibility="public"/>
+        <Method name="getCantidad" returnType="int" visibility="public"/>
+        <Method name="setNombrePieza" returnType="void" visibility="public">
+          <Argument type="String" name="nombrePieza"/>
+        </Method>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="double" name="precio"/>
+        </Method>
+        <Method name="setCantidad" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PiezaInventario" package="mi.muebleria.Piezas" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombrePieza" type="String" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+        <Field name="usable" type="boolean" visibility="private"/>
+        <Field name="direccion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="double" name="precio"/>
+          <Argument type="int" name="cantidad"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="double" name="precio"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="UsarPieza" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+        <Method name="IngresoPiezas" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+        <Method name="getNombrePieza" returnType="String" visibility="public"/>
+        <Method name="getPrecio" returnType="double" visibility="public"/>
+        <Method name="getCantidad" returnType="int" visibility="public"/>
+        <Method name="getUsable" returnType="boolean" visibility="public"/>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="setNombrePieza" returnType="void" visibility="public">
+          <Argument type="String" name="nombrePieza"/>
+        </Method>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="double" name="precio"/>
+        </Method>
+        <Method name="setCantidad" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+        <Method name="setUsable" returnType="void" visibility="public">
+          <Argument type="boolean" name="usable"/>
+        </Method>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direccion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Muebleria" package="mi.muebleria.Funcionamiento" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields>
+        <Field name="gananciasTotales" type="double" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="PiezasDisponibles" returnType="ArrayList&lt;PiezaInventario&gt;" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="MueblesEnsamblados" returnType="MuebleInventario[]" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="MueblesEnVenta" returnType="MuebleInventario[]" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="mueblesEnsamblados" returnType="MuebleInventario[]" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="Piezas" returnType="PiezaInventario[]" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="conteoGeneralMuebles" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="nombresMueblesGuia" returnType="String[]" visibility="public" isStatic="true"/>
+        <Method name="nombresPiezasGuia" returnType="String[]" visibility="public" isStatic="true"/>
+        <Method name="gananciasTotales" returnType="double" visibility="public" isStatic="true"/>
+        <Method name="devolucionValida" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="String" name="fecha1"/>
+          <Argument type="String" name="fecha2"/>
+        </Method>
+        <Method name="ventasEnIntervaloDeTiempo" returnType="ArrayList&lt;Venta&gt;" visibility="public" isStatic="true">
+          <Argument type="LocalDate" name="FechaInicial"/>
+          <Argument type="LocalDate" name="FechaFinal"/>
+        </Method>
+        <Method name="ventasDe" returnType="ArrayList&lt;Venta&gt;" visibility="public" isStatic="true">
+          <Argument type="String" name="fecha"/>
+        </Method>
+        <Method name="mueblePorCodigo" returnType="MuebleInventario" visibility="public" isStatic="true">
+          <Argument type="int" name="codigo"/>
+        </Method>
+        <Method name="piezasDisponibles" returnType="Pieza[]" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="Registro" package="mi.muebleria.Funcionamiento" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Fields>
+        <Field name="numeroDeFactura" type="int" visibility="package" isStatic="true"/>
+        <Field name="numeroDeVenta" type="int" visibility="package" isStatic="true"/>
+        <Field name="numeroDeMueble" type="int" visibility="package" isStatic="true"/>
+        <Field name="numeroDeCompra" type="int" visibility="package" isStatic="true"/>
+        <Field name="numeroDePieza" type="int" visibility="package" isStatic="true"/>
+        <Field name="codigoGeneralMueble" type="int" visibility="public" isStatic="true"/>
+        <Field name="numeroDeDevolucion" type="int" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="CrearCarpetas" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="DatosIniciales" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="GuadarUsuarioFabrica" returnType="void" visibility="public" isStatic="true">
+          <Argument type="UsuarioFabrica" name="usuario"/>
+        </Method>
+        <Method name="SobreEscribirUsuarioFabrica" returnType="void" visibility="public" isStatic="true">
+          <Argument type="UsuarioFabrica" name="usuario"/>
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="GuardarUsuarioVentas" returnType="void" visibility="public" isStatic="true">
+          <Argument type="UsuarioVentas" name="usuario"/>
+        </Method>
+        <Method name="SobreEscribirUsuarioVentas" returnType="void" visibility="public" isStatic="true">
+          <Argument type="UsuarioVentas" name="usuario"/>
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="GuardarUsuarioAdministracion" returnType="void" visibility="public" isStatic="true">
+          <Argument type="UsuarioFinanciero" name="usuario"/>
+        </Method>
+        <Method name="SobreEscribirUsuarioAdministracion" returnType="void" visibility="public" isStatic="true">
+          <Argument type="UsuarioFinanciero" name="usuario"/>
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="GuardarMuebleGuia" returnType="void" visibility="public" isStatic="true">
+          <Argument type="MuebleBase" name="mueble"/>
+        </Method>
+        <Method name="SobreEscribirMuebleGuia" returnType="void" visibility="public" isStatic="true">
+          <Argument type="MuebleBase" name="mueble"/>
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="GuardarMuebleInventario" returnType="void" visibility="public" isStatic="true">
+          <Argument type="MuebleInventario" name="mueble"/>
+        </Method>
+        <Method name="sobreEscribirMuebleInventario" returnType="void" visibility="public" isStatic="true">
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="GuardarPiezaGuia" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Pieza" name="pieza"/>
+        </Method>
+        <Method name="GuardarPiezaInventario" returnType="void" visibility="public" isStatic="true">
+          <Argument type="PiezaInventario" name="pieza"/>
+        </Method>
+        <Method name="sobreEscribirPiezaInventario" returnType="void" visibility="public" isStatic="true">
+          <Argument type="PiezaInventario" name="pieza"/>
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="GuardarVenta" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Venta" name="venta"/>
+        </Method>
+        <Method name="GuardarDevolucion" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Devolucion" name="devolucion"/>
+        </Method>
+        <Method name="GuardarCompra" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Compra" name="compra"/>
+        </Method>
+        <Method name="GuardarFactura" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Factura" name="factura"/>
+        </Method>
+        <Method name="GuardarCliente" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Cliente" name="cliente"/>
+        </Method>
+        <Method name="SobreEscribirCliente" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Cliente" name="cliente"/>
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="getCliente" returnType="Cliente" visibility="public" isStatic="true">
+          <Argument type="int" name="nit"/>
+        </Method>
+        <Method name="getUsuarioFabrica" returnType="UsuarioFabrica" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getUsuarioVentas" returnType="UsuarioVentas" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getUsuarioAdministracion" returnType="UsuarioFinanciero" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getFactura" returnType="Factura" visibility="public" isStatic="true">
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="getMuebleGuia" returnType="MuebleBase" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getMuebleInventario" returnType="MuebleInventario" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getMuebleInventarioEspecifico" returnType="MuebleInventario" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="getPiezaGuia" returnType="Pieza" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getPiezaInventario" returnType="PiezaInventario" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getPiezaInventarioEspecifico" returnType="PiezaInventario" visibility="public" isStatic="true">
+          <Argument type="String" name="nombre"/>
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="getVenta" returnType="Venta" visibility="public" isStatic="true">
+          <Argument type="String" name="fecha"/>
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="getDevolucion" returnType="Devolucion" visibility="public" isStatic="true">
+          <Argument type="String" name="fecha"/>
+          <Argument type="int" name="numero"/>
+        </Method>
+        <Method name="getCompra" returnType="Compra" visibility="public" isStatic="true">
+          <Argument type="int" name="nit"/>
+          <Argument type="int" name="numero"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Lector" package="mi.muebleria.Funcionamiento" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Fields>
+        <Field name="ejecucion" type="ArrayList&lt;String&gt;" visibility="private" isStatic="true"/>
+        <Field name="ordenes" type="ArrayList&lt;String&gt;" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="erroresLectura" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="String" name="a"/>
+        </Method>
+        <Method name="realizarOrdenLectura" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="a"/>
+        </Method>
+        <Method name="asignarLineas" returnType="void" visibility="public" isStatic="true">
+          <Argument type="File" name="file"/>
+        </Method>
+        <Method name="getOrdenes" returnType="ArrayList&lt;String&gt;" visibility="public" isStatic="true"/>
+        <Method name="getEjecucion" returnType="ArrayList&lt;String&gt;" visibility="public" isStatic="true"/>
+        <Method name="eliminarComillas" returnType="String" visibility="public" isStatic="true">
+          <Argument type="String" name="a"/>
+        </Method>
+        <Method name="compararFechas" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="String" name="fecha1"/>
+          <Argument type="String" name="fecha2"/>
+        </Method>
+        <Method name="fechaValida" returnType="LocalDate" visibility="public" isStatic="true">
+          <Argument type="String" name="fecha"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Usuario" package="mi.muebleria.Personas" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="protected"/>
+        <Field name="password" type="String" visibility="protected"/>
+        <Field name="activo" type="boolean" visibility="protected"/>
+        <Field name="direccion" type="String" visibility="protected"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="getPassword" returnType="String" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="UsuarioFinanciero" package="mi.muebleria.Personas" visibility="public" xPosition="1220.0" yPosition="420.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="password"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getPassword" returnType="String" visibility="public"/>
+        <Method name="getActivo" returnType="boolean" visibility="public"/>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="setActivo" returnType="void" visibility="public"/>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direcion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="UsuarioVentas" package="mi.muebleria.Personas" visibility="public" xPosition="1520.0" yPosition="420.0">
+      <Fields>
+        <Field name="ventas" type="ArrayList&lt;Venta&gt;" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="password"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getPassword" returnType="String" visibility="public"/>
+        <Method name="getActivo" returnType="boolean" visibility="public"/>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="setActivo" returnType="void" visibility="public"/>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="RelizarVenta" returnType="void" visibility="public">
+          <Argument type="Factura" name="factura"/>
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="Cliente" name="cliente"/>
+          <Argument type="String" name="fecha"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="UsuarioFabrica" package="mi.muebleria.Personas" visibility="public" xPosition="1820.0" yPosition="420.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="password"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getPassword" returnType="String" visibility="public"/>
+        <Method name="getActivo" returnType="boolean" visibility="public"/>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="setActivo" returnType="void" visibility="public"/>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direccion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Cliente" package="mi.muebleria.Personas" visibility="public" xPosition="2120.0" yPosition="420.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="NIT" type="int" visibility="private"/>
+        <Field name="direccion" type="String" visibility="private"/>
+        <Field name="compras" type="ArrayList&lt;Compra&gt;" visibility="private"/>
+        <Field name="devoluciones" type="ArrayList&lt;Devolucion&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="direccion"/>
+          <Argument type="int" name="nit"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="RealizarCompra" returnType="void" visibility="public">
+          <Argument type="UsuarioVentas" name="usuario"/>
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="Factura" name="factura"/>
+          <Argument type="String" name="fecha"/>
+        </Method>
+        <Method name="RealizarDevolucion" returnType="void" visibility="public">
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="String" name="fecha"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getNIT" returnType="int" visibility="public"/>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="getCompras" returnType="ArrayList&lt;Compra&gt;" visibility="public"/>
+        <Method name="getDevoluciones" returnType="ArrayList&lt;Devolucion&gt;" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setNIT" returnType="void" visibility="public">
+          <Argument type="int" name="NIT"/>
+        </Method>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direccion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MuebleBase" package="mi.muebleria.Muebles" visibility="public" xPosition="20.0" yPosition="820.0">
+      <Fields>
+        <Field name="nombreMueble" type="String" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="piezas" type="ArrayList&lt;Pieza&gt;" visibility="private"/>
+        <Field name="costo" type="double" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+        <Field name="direccion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="double" name="precio"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="NuevaPieza" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="int" name="cantidad"/>
+        </Method>
+        <Method name="getCantidad" returnType="int" visibility="public"/>
+        <Method name="getNombreMueble" returnType="String" visibility="public"/>
+        <Method name="getPrecio" returnType="double" visibility="public"/>
+        <Method name="getPiezas" returnType="ArrayList&lt;Pieza&gt;" visibility="public"/>
+        <Method name="getCosto" returnType="double" visibility="public"/>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="setNombreMueble" returnType="void" visibility="public">
+          <Argument type="String" name="nombreMueble"/>
+        </Method>
+        <Method name="setCantidad" returnType="void" visibility="public"/>
+        <Method name="resetCantidad" returnType="void" visibility="public"/>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="double" name="precio"/>
+        </Method>
+        <Method name="setPiezas" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Pieza&gt;" name="piezas"/>
+        </Method>
+        <Method name="setCosto" returnType="void" visibility="public">
+          <Argument type="double" name="costo"/>
+        </Method>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direccion"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MuebleInventario" package="mi.muebleria.Muebles" visibility="public" xPosition="320.0" yPosition="820.0">
+      <Fields>
+        <Field name="costo" type="double" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="nombreMueble" type="String" visibility="private"/>
+        <Field name="codigo" type="int" visibility="private"/>
+        <Field name="fecha" type="String" visibility="private"/>
+        <Field name="vendido" type="boolean" visibility="private"/>
+        <Field name="enVenta" type="boolean" visibility="private"/>
+        <Field name="devuelto" type="boolean" visibility="private"/>
+        <Field name="ensamblador" type="String" visibility="private"/>
+        <Field name="direccion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="ensamblador"/>
+          <Argument type="double" name="precio"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="fecha"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="ensamblador"/>
+          <Argument type="double" name="precio"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="fecha"/>
+          <Argument type="boolean" name="venta"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="EnVenta" returnType="void" visibility="public"/>
+        <Method name="Devolucion" returnType="void" visibility="public"/>
+        <Method name="Vendido" returnType="void" visibility="public"/>
+        <Method name="setCodigo" returnType="void" visibility="public">
+          <Argument type="int" name="codigo"/>
+        </Method>
+        <Method name="setDireccion" returnType="void" visibility="public">
+          <Argument type="String" name="direccion"/>
+        </Method>
+        <Method name="setFecha" returnType="void" visibility="public">
+          <Argument type="String" name="fecha"/>
+        </Method>
+        <Method name="setCosto" returnType="void" visibility="public">
+          <Argument type="double" name="costo"/>
+        </Method>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="double" name="precio"/>
+        </Method>
+        <Method name="setNombreMueble" returnType="void" visibility="public">
+          <Argument type="String" name="nombreMueble"/>
+        </Method>
+        <Method name="setEnVenta" returnType="void" visibility="public">
+          <Argument type="boolean" name="enVenta"/>
+        </Method>
+        <Method name="setDevuelto" returnType="void" visibility="public">
+          <Argument type="boolean" name="devuelto"/>
+        </Method>
+        <Method name="getCosto" returnType="double" visibility="public"/>
+        <Method name="getDireccion" returnType="String" visibility="public"/>
+        <Method name="getPrecio" returnType="double" visibility="public"/>
+        <Method name="getNombreMueble" returnType="String" visibility="public"/>
+        <Method name="getCodigo" returnType="int" visibility="public"/>
+        <Method name="getFecha" returnType="String" visibility="public"/>
+        <Method name="getVenta" returnType="boolean" visibility="public"/>
+        <Method name="getVendido" returnType="boolean" visibility="public"/>
+        <Method name="isDevuelto" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MiMuebleria" package="mi.muebleria" visibility="public" xPosition="620.0" yPosition="820.0">
+      <Fields>
+        <Field name="inicio" type="INICIO" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Venta" package="mi.muebleria.Papeleria" visibility="public" xPosition="920.0" yPosition="820.0">
+      <Fields>
+        <Field name="fecha" type="String" visibility="private"/>
+        <Field name="cliente" type="Cliente" visibility="private"/>
+        <Field name="factura" type="Factura" visibility="private"/>
+        <Field name="muebleVendido" type="MuebleInventario" visibility="private"/>
+        <Field name="ganancia" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Cliente" name="cliente"/>
+          <Argument type="Factura" name="factura"/>
+          <Argument type="MuebleInventario" name="muebleVendido"/>
+          <Argument type="String" name="fecha"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCliente" returnType="Cliente" visibility="public"/>
+        <Method name="getFactura" returnType="Factura" visibility="public"/>
+        <Method name="getMuebleVendido" returnType="MuebleInventario" visibility="public"/>
+        <Method name="getFecha" returnType="String" visibility="public"/>
+        <Method name="getGanancia" returnType="double" visibility="public"/>
+        <Method name="setCliente" returnType="void" visibility="public">
+          <Argument type="Cliente" name="cliente"/>
+        </Method>
+        <Method name="setFactura" returnType="void" visibility="public">
+          <Argument type="Factura" name="factura"/>
+        </Method>
+        <Method name="setMuebleVendido" returnType="void" visibility="public">
+          <Argument type="MuebleInventario" name="muebleVendido"/>
+        </Method>
+        <Method name="setFecha" returnType="void" visibility="public">
+          <Argument type="String" name="fecha"/>
+        </Method>
+        <Method name="setGanancia" returnType="void" visibility="public">
+          <Argument type="int" name="ganancia"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Factura" package="mi.muebleria.Papeleria" visibility="public" xPosition="1220.0" yPosition="820.0">
+      <Fields>
+        <Field name="nitComprador" type="int" visibility="private"/>
+        <Field name="vendedor" type="UsuarioVentas" visibility="private"/>
+        <Field name="fecha" type="String" visibility="private"/>
+        <Field name="muebleComprado" type="MuebleInventario" visibility="private"/>
+        <Field name="numero" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="UsuarioVentas" name="vendedor"/>
+          <Argument type="int" name="NitComprador"/>
+          <Argument type="String" name="fecha"/>
+          <Argument type="MuebleInventario" name="mueble"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getComprador" returnType="int" visibility="public"/>
+        <Method name="getFecha" returnType="String" visibility="public"/>
+        <Method name="getMuebleComprado" returnType="MuebleInventario" visibility="public"/>
+        <Method name="getNumero" returnType="int" visibility="public"/>
+        <Method name="setComprador" returnType="void" visibility="public">
+          <Argument type="int" name="comprador"/>
+        </Method>
+        <Method name="setFecha" returnType="void" visibility="public">
+          <Argument type="String" name="fecha"/>
+        </Method>
+        <Method name="setMuebleComprado" returnType="void" visibility="public">
+          <Argument type="MuebleInventario" name="muebleComprado"/>
+        </Method>
+        <Method name="setNumero" returnType="void" visibility="public">
+          <Argument type="int" name="numero"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Compra" package="mi.muebleria.Papeleria" visibility="public" xPosition="1520.0" yPosition="820.0">
+      <Fields>
+        <Field name="fecha" type="String" visibility="private"/>
+        <Field name="cliente" type="Cliente" visibility="private"/>
+        <Field name="usuario" type="UsuarioVentas" visibility="private"/>
+        <Field name="muebleComprado" type="MuebleInventario" visibility="private"/>
+        <Field name="factura" type="Factura" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Cliente" name="cliente"/>
+          <Argument type="UsuarioVentas" name="usuario"/>
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="Factura" name="factura"/>
+          <Argument type="String" name="fecha"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="UsuarioVentas" name="usuario"/>
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="Factura" name="factura"/>
+          <Argument type="String" name="fecha"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getUsuario" returnType="UsuarioVentas" visibility="public"/>
+        <Method name="getMuebleComprado" returnType="MuebleInventario" visibility="public"/>
+        <Method name="getFactura" returnType="Factura" visibility="public"/>
+        <Method name="getFecha" returnType="String" visibility="public"/>
+        <Method name="getCliente" returnType="Cliente" visibility="public"/>
+        <Method name="setUsuario" returnType="void" visibility="public">
+          <Argument type="UsuarioVentas" name="usuario"/>
+        </Method>
+        <Method name="setMuebleComprado" returnType="void" visibility="public">
+          <Argument type="MuebleInventario" name="muebleComprado"/>
+        </Method>
+        <Method name="setFactura" returnType="void" visibility="public">
+          <Argument type="Factura" name="factura"/>
+        </Method>
+        <Method name="setFecha" returnType="void" visibility="public">
+          <Argument type="String" name="fecha"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Devolucion" package="mi.muebleria.Papeleria" visibility="public" xPosition="1820.0" yPosition="820.0">
+      <Fields>
+        <Field name="mueble" type="MuebleInventario" visibility="private"/>
+        <Field name="fecha" type="String" visibility="private"/>
+        <Field name="cliente" type="Cliente" visibility="private"/>
+        <Field name="factura" type="Factura" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="String" name="fecha"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="MuebleInventario" name="mueble"/>
+          <Argument type="String" name="fecha"/>
+          <Argument type="Cliente" name="cliente"/>
+          <Argument type="Factura" name="factura"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMueble" returnType="MuebleInventario" visibility="public"/>
+        <Method name="getFecha" returnType="String" visibility="public"/>
+        <Method name="getFactura" returnType="Factura" visibility="public"/>
+        <Method name="setMueble" returnType="void" visibility="public">
+          <Argument type="MuebleInventario" name="mueble"/>
+        </Method>
+        <Method name="setFecha" returnType="void" visibility="public">
+          <Argument type="String" name="fecha"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Papeleria.Devolucion" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Venta" target="mi.muebleria.Muebles.MuebleInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Piezas.Pieza" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mi.muebleria.Personas.UsuarioVentas" target="mi.muebleria.Personas.Usuario"/>
+    <UseRelation source="INTEFAZ.InterfazVentas" target="mi.muebleria.Papeleria.Venta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Personas.UsuarioFinanciero" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="interfazFabrica" source="INTEFAZ.INICIO" target="INTEFAZ.InterfazFabrica" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="ventas" source="mi.muebleria.Personas.UsuarioVentas" target="mi.muebleria.Papeleria.Venta" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Venta&gt;"/>
+    <HasRelation name="muebleComprado" source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Muebles.MuebleInventario" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="vendedor" source="mi.muebleria.Papeleria.Factura" target="mi.muebleria.Personas.UsuarioVentas" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Personas.UsuarioVentas" target="mi.muebleria.Papeleria.Factura" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Muebles.MuebleBase" target="mi.muebleria.Piezas.Pieza" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Venta" target="mi.muebleria.Papeleria.Factura" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Personas.Cliente" target="mi.muebleria.Papeleria.Devolucion" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cliente" source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Personas.Cliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="usuarioActivo" source="INTEFAZ.InterfazFabrica" target="mi.muebleria.Personas.UsuarioFabrica" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Muebleria" target="mi.muebleria.Piezas.Pieza" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="piezas" source="mi.muebleria.Muebles.MuebleBase" target="mi.muebleria.Piezas.Pieza" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Pieza&gt;"/>
+    <HasRelation name="usuario" source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Personas.UsuarioVentas" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Muebleria" target="mi.muebleria.Piezas.PiezaInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="factura" source="mi.muebleria.Papeleria.Devolucion" target="mi.muebleria.Papeleria.Factura" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="INTEFAZ.InterfazFabrica" target="mi.muebleria.Personas.UsuarioFabrica" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="interfazVentas" source="INTEFAZ.INICIO" target="INTEFAZ.InterfazVentas" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Personas.Cliente" target="mi.muebleria.Papeleria.Factura" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Muebles.MuebleInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Muebleria" target="mi.muebleria.Muebles.MuebleInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Personas.Cliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="muebleVendido" source="mi.muebleria.Papeleria.Venta" target="mi.muebleria.Muebles.MuebleInventario" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="INTEFAZ.InterfazFinanciera" target="mi.muebleria.Personas.UsuarioFinanciero" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mi.muebleria.Personas.UsuarioFabrica" target="mi.muebleria.Personas.Usuario"/>
+    <UseRelation source="mi.muebleria.Personas.Cliente" target="mi.muebleria.Muebles.MuebleInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="compras" source="mi.muebleria.Personas.Cliente" target="mi.muebleria.Papeleria.Compra" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Compra&gt;"/>
+    <IsRelation name="is" source="mi.muebleria.Personas.UsuarioFinanciero" target="mi.muebleria.Personas.Usuario"/>
+    <UseRelation source="mi.muebleria.Personas.Cliente" target="mi.muebleria.Papeleria.Compra" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Factura" target="mi.muebleria.Muebles.MuebleInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Papeleria.Venta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Papeleria.Venta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cliente" source="mi.muebleria.Papeleria.Venta" target="mi.muebleria.Personas.Cliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Papeleria.Factura" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Venta" target="mi.muebleria.Personas.Cliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Muebleria" target="mi.muebleria.Papeleria.Venta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Devolucion" target="mi.muebleria.Muebles.MuebleInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="usuarioActivo" source="INTEFAZ.InterfazVentas" target="mi.muebleria.Personas.UsuarioVentas" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="devoluciones" source="mi.muebleria.Personas.Cliente" target="mi.muebleria.Papeleria.Devolucion" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Devolucion&gt;"/>
+    <HasRelation name="usuario" source="INTEFAZ.InterfazFinanciera" target="mi.muebleria.Personas.UsuarioFinanciero" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="factura" source="mi.muebleria.Papeleria.Venta" target="mi.muebleria.Papeleria.Factura" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Papeleria.Factura" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Papeleria.Compra" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="mueble" source="mi.muebleria.Papeleria.Devolucion" target="mi.muebleria.Muebles.MuebleInventario" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cliente" source="INTEFAZ.InterfazVentas" target="mi.muebleria.Personas.Cliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Piezas.PiezaInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="interfazFinanciera" source="INTEFAZ.INICIO" target="INTEFAZ.InterfazFinanciera" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="factura" source="mi.muebleria.Papeleria.Compra" target="mi.muebleria.Papeleria.Factura" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Muebles.MuebleInventario" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Papeleria.Devolucion" target="mi.muebleria.Papeleria.Factura" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="muebleComprado" source="mi.muebleria.Papeleria.Factura" target="mi.muebleria.Muebles.MuebleInventario" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="inicio" source="mi.muebleria.MiMuebleria" target="INTEFAZ.INICIO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Personas.Cliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Personas.UsuarioFabrica" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mi.muebleria.Funcionamiento.Registro" target="mi.muebleria.Muebles.MuebleBase" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="cliente" source="mi.muebleria.Papeleria.Devolucion" target="mi.muebleria.Personas.Cliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
